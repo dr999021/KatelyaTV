@@ -1,4 +1,4 @@
-name = "tv"
+name = "drtv"
 main = ".next/static/chunks/worker.js"
 compatibility_date = "2026-03-17"
 compatibility_flags = ["nodejs_compat"]
@@ -27,7 +27,7 @@ id = "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy"
 # R2 存储桶绑定（用于媒体文件存储）
 [[r2_buckets]]
 binding = "MEDIA_BUCKET"
-bucket_name = "tv-media-storage"
+bucket_name = "drtv-media-storage"
 
 # 环境变量配置
 [vars]
@@ -39,7 +39,7 @@ NEXT_PUBLIC_VIDSTACK_VERSION = "1.12.13"
 
 # 开发环境配置
 [env.dev]
-name = "tv-dev"
+name = "drtv-dev"
 [env.dev.vars]
 ENVIRONMENT = "development"
 NEXT_PUBLIC_API_URL = "https://dev.api.drtv.example.com"
