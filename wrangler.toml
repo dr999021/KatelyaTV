@@ -16,8 +16,8 @@ entry-point = "."
 # D1 数据库绑定
 [[d1_databases]]
 binding = "DB"
-database_name = "katelyatv-db"
-database_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+database_name = "dr"
+database_id = "15101641-cffe-4cf7-ba9c-be63820e6722"
 
 # KV 命名空间绑定（用于缓存和会话存储）
 [[kv_namespaces]]
