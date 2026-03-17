@@ -1,4 +1,4 @@
-name = "drtv"
+name = "tv"
 main = ".next/static/chunks/worker.js"
 compatibility_date = "2026-03-17"
 compatibility_flags = ["nodejs_compat"]
