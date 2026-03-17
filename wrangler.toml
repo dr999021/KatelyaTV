@@ -27,19 +27,19 @@ id = "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy"
 # R2 存储桶绑定（用于媒体文件存储）
 [[r2_buckets]]
 binding = "MEDIA_BUCKET"
-bucket_name = "drtv-media-storage"
+bucket_name = "tv-media-storage"
 
 # 环境变量配置
 [vars]
 NODE_VERSION = "20.10.0"
-NEXT_PUBLIC_API_URL = "https://api.drtv.example.com"
+NEXT_PUBLIC_API_URL = "https://api.tv.example.com"
 REDIS_URL = "redis://upstash-redis-url"
 ENVIRONMENT = "production"
 NEXT_PUBLIC_VIDSTACK_VERSION = "1.12.13"
 
 # 开发环境配置
 [env.dev]
-name = "drtv-dev"
+name = "tv-dev"
 [env.dev.vars]
 ENVIRONMENT = "development"
 NEXT_PUBLIC_API_URL = "https://dev.api.drtv.example.com"
